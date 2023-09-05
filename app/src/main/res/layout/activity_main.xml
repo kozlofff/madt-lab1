@@ -16,6 +16,13 @@
         android:layout_width="283dp"
         android:layout_height="wrap_content"
         android:baselineAligned="false"
-        android:onClick="buttonOnClick"
+        android:onClick="button1_onClick"
         android:text="@string/button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="button2_onClick"
+        android:text="@string/click2" />
 </LinearLayout>

@@ -2,4 +2,5 @@
     <string name="app_name">Lab1</string>
     <string name="button">CLICK</string>
     <string name="click_on_this_button">CLICK ON THIS BUTTON</string>
+    <string name="click2">CLICK2</string>
 </resources>

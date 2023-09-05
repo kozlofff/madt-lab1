@@ -1,5 +1,6 @@
 package com.example.lab1
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
@@ -19,9 +20,14 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-    fun buttonOnClick(view: View?)
+    fun button1_onClick(view: View?)
     {
         val tv1: TextView = findViewById(R.id.textView1)
         tv1.text = "some text)"
+    }
+    fun button2_onClick(view: View?)
+    {
+        val tv1: TextView = findViewById(R.id.textView1)
+        tv1.setTextColor(Color.BLUE)
     }
 }
